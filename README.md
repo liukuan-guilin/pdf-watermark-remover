@@ -12,13 +12,25 @@
 
 ### 🚀 Quick Start
 
-Remove watermarks, headers, and footers from PDF files with one command!
+#### Option 1: One-Click Interactive Mode (Recommended)
+
+```batch
+# Windows - Double click to run
+install.bat      # Install dependencies
+start.bat        # Open interactive menu
+```
+
+#### Option 2: Generate Standalone .exe
 
 ```bash
-# Install dependencies
-pip install PyMuPDF Pillow
+python build_exe.py    # Generate .exe file
+dist/pdf-watermark-remover.exe   # Use standalone executable
+```
 
-# Remove watermark
+#### Option 3: Command Line
+
+```bash
+pip install PyMuPDF Pillow
 python pdf_watermark_remover.py remove input.pdf output.pdf
 ```
 
@@ -62,13 +74,25 @@ pip install -r requirements.txt
 
 ### 🚀 快速开始
 
-只需一个命令即可去除 PDF 文件中的水印、页眉和页脚！
+#### 方式一：一键交互模式（推荐）
+
+```batch
+# Windows - 双击运行
+install.bat      # 安装依赖
+start.bat        # 打开交互式菜单
+```
+
+#### 方式二：生成独立 .exe 文件
 
 ```bash
-# 安装依赖
-pip install PyMuPDF Pillow
+python build_exe.py    # 生成 .exe 文件
+dist/pdf-watermark-remover.exe   # 使用独立可执行文件
+```
 
-# 去除水印
+#### 方式三：命令行
+
+```bash
+pip install PyMuPDF Pillow
 python pdf_watermark_remover.py remove input.pdf output.pdf
 ```
 
