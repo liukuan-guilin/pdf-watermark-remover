@@ -23,9 +23,15 @@
 skills/pdf-watermark-remover/
 ├── README.md                 # 项目主页（带中英文切换）
 ├── SKILL.md                  # 技能使用说明（双语）
+├── QUICKSTART.md             # 快速开始指南
 ├── pdf_watermark_remover.py  # 主程序脚本
+├── build_exe.py              # 生成 .exe 的脚本
+├── install.bat               # 一键安装脚本（Windows）
+├── start.bat                 # 交互式启动菜单（Windows）
 ├── requirements.txt          # Python 依赖
-└── LICENSE                   # MIT 许可证
+├── LICENSE                   # MIT 许可证
+├── .gitignore                # Git 忽略文件
+└── PUBLISH_REPORT.md         # 发布报告
 ```
 
 ---
@@ -112,5 +118,18 @@ PDF 去水印工具已成功发布到 GitHub，包含：
 - ✅ 可运行的 Python 脚本
 - ✅ MIT 开源许可证
 - ✅ GitHub 仓库已创建并推送
+- ✅ 一键安装脚本（install.bat）
+- ✅ 交互式启动菜单（start.bat）
+- ✅ 生成 .exe 的脚本（build_exe.py）
+- ✅ 快速开始指南（QUICKSTART.md）
 
 现在其他人可以通过 GitHub 仓库使用这个工具来去除 PDF 文件中的水印了！
+
+---
+
+## 🕐 更新历史
+
+| 日期 | 更新内容 |
+|------|----------|
+| 2026-04-13 | 初始发布：PDF 去水印工具 + 双语支持 |
+| 2026-04-13 | 新增：一键使用脚本（.bat）和 .exe 生成脚本 |
